@@ -1,9 +1,7 @@
 .menu {
   display: flex;
   justify-content: flex-end;
-  background-color: black;
-
-  
+  background-color: black
 }
 
 .menu a{
@@ -12,16 +10,45 @@
 }
 
 .menu img{
-    display: flex;
-    width: 50px;
-    margin: 15px;
-    padding: 96px;
     color: white;
+    position: relative;
+    left: -542px;
 }
 
+.container{
+    color: white; 
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    left: -558px;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+    color: rgb(209, 89, 20);
+    position: relative;
+    left: -550px;
+} 
 
 .menu_nav{
     display: flex;
-    justify-content: flex-end;
-    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: system-ui;
+}
+
+a:hover{
+    background: grey;
+    color: white;
+    transition-duration: 1s;
 }
