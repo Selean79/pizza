@@ -1,16 +1,12 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.ttf');
-}
-
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
+//@font-face {
+//  font-family: 'Inter';
+//  src: url('../fonts/Inter.ttf');
+//}
+//
+//@import 'variables';
+//@import 'scaffolding';
 
 
 @import 'normalize';
-@import 'menuPrice';
-=======
 @import 'variables';
-@import 'scaffolding';
->>>>>>> 4e64084 (changed title -> pizza)
+@import 'menuPrice';
