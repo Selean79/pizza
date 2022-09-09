@@ -1,38 +1,64 @@
-#menu-price{
+#menu-price {
   background-image: url("assets/bg_4.jpg");
   color: $color;
   height: $heightMenuPrice;
   width: $widthMenuPrice;
 
-    h1, p{
-      text-align: center;
-    }
-
-    h1{
-      padding-top: 3%;
-      font-family: Arial;
-      font-size: 2em;
-    }
-
-    p{
-      margin-top: 2%;
-    }
-
-  img{
-    width: 42px;
-    height: 42px;
+  #description-left-side {
+    margin-right: 5%;
   }
 
-  #img-price{
+  h1, p {
     text-align: center;
   }
 
-  .item{
+  h1 {
+    padding-top: 3%;
+    font-family: Arial;
+    font-size: 2em;
+  }
+
+  p {
+    margin-top: 2%;
+  }
+
+  img {
+    width: 53px;
+    height: 52px;
+  }
+
+  #img-price {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+  .item {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 400px;
+    padding: {
+      bottom: 10%;
+    };
+
+    .cost-description{
+      display: flex;
+      flex-direction: column;
+      padding-left: 5%;
+
+        .cost{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+    }
+
+    p{
+      text-align: left;
+    }
   }
+
 
 
 
