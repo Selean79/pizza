@@ -1,0 +1,57 @@
+//$heightMenuPrice: 700px;
+
+#pizza-meals {
+  background-image: url("assets/bg_4.jpg");
+  color: $color;
+
+  p{
+    color: #656565;
+  }
+
+  .second-part-text{
+    margin-top: 0.8%;
+  }
+
+  h1, p {
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.8em;
+  }
+
+  h1 {
+    padding-top: 3%;
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 2%;
+  }
+
+  #square-pizza-meals {
+    display: flex;
+    flex-direction: column;
+    //width: 100%;
+
+    #box1, #box2 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+
+      img {
+        width: 220px;
+        height: 200px;
+      }
+    }
+
+    div {
+      width: 220px;
+      height: 200px;
+      background: coral;
+      margin: 1px;
+    }
+  }
+}
+
