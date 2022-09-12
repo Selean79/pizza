@@ -1,12 +1,12 @@
 $color-line: #e17754;
-$heightMenuPrice: 550px;
+//$heightMenuPrice: 700px;
 $widthMenuPrice: 100%;
 $color: white;
 
 #menu-price {
   background-image: url("assets/bg_4.jpg");
   color: $color;
-  height: $heightMenuPrice;
+  //height: $heightMenuPrice;
   width: $widthMenuPrice;
 
   #line-square{
